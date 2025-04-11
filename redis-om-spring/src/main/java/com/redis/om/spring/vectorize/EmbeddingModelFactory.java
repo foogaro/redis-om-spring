@@ -2,10 +2,8 @@ package com.redis.om.spring.vectorize;
 
 import com.azure.ai.openai.OpenAIClient;
 import com.azure.ai.openai.OpenAIClientBuilder;
-import com.azure.core.credential.AccessToken;
 import com.azure.core.credential.AzureKeyCredential;
-import com.azure.core.credential.TokenRequestContext;
-import com.azure.identity.*;
+import com.azure.identity.DefaultAzureCredentialBuilder;
 import com.redis.om.spring.RedisOMAiProperties;
 import com.redis.om.spring.annotations.Vectorize;
 import org.springframework.ai.azure.openai.AzureOpenAiEmbeddingModel;
